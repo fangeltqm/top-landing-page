@@ -58,7 +58,7 @@ ul {
     margin-bottom: 5px;
 }
 
-button {
+.hero-button {
     background-color: #3882f6;
     color: #F9FAF8;
     margin-top: 7px;
@@ -70,4 +70,31 @@ button {
 
 .house {
    max-width: 50%;
+}
+
+.information {
+    padding: 30px 13rem;
+
+}
+
+.info-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.carousel {
+    display: flex;
+    padding: 50px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.text {
+    
 }
