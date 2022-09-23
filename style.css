@@ -72,8 +72,9 @@ ul {
    max-width: 50%;
 }
 
-.information {
-    padding: 30px 13rem;
+.information, .testimonial {
+    padding: 60px 13rem;
+    min-height: 300px;
 
 }
 
@@ -86,15 +87,79 @@ ul {
 
 .carousel {
     display: flex;
-    padding: 50px;
+    padding: 50px 0;
     gap: 40px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 
 
+
 }
 
-.text {
+.carousel img {
+    max-width: 100px;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
+
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.cta {
+    padding: 60px 10rem;
+}
+
+.container {
+    background-color: #3882f6;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5rem;
+    border-radius: 8px;
+    
+}
+
+.cta-text {
+    color: #E5E7EB;
+    
+}
+
+.cta-title {
+    font-weight: bold;
+    color:#F9FAF8;
+}
+
+.cta-button {
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 10px 35px;
+}
+
+.footer {
+    text-align: center;
+    color: #E5E7EB;
+    padding: 20px;
 }
